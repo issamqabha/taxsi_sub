@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680919552840",
+    "project_id": "taxsisub",
+    "storage_bucket": "taxsisub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680919552840:android:de8bbfad764c55b6fa997d",
+        "android_client_info": {
+          "package_name": "com.example.taxsi_sub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDimPK2KGm4p9W6oXM315vI8PQwA2Bs0Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

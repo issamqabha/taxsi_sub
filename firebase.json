@@ -1,0 +1,59 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "taxsisub",
+          "appId": "1:680919552840:android:de8bbfad764c55b6fa997d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "taxsisub",
+          "configurations": {
+            "android": "1:680919552840:android:de8bbfad764c55b6fa997d",
+            "ios": "1:680919552840:ios:ce0f94df0bc5b53afa997d",
+            "macos": "1:680919552840:ios:ce0f94df0bc5b53afa997d",
+            "web": "1:680919552840:web:5c6c58b53027844afa997d",
+            "windows": "1:680919552840:web:8375c0b8c4a18329fa997d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|woff|woff2|ttf|otf)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=86400"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}
